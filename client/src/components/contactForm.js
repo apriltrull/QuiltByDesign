@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import EmailConfirm from './EmailConfirm';
 import { SubmitAni } from './Animations';
-import '../assets/stylesheets/contactform.css';
+import '../assets/stylesheets/contactForm.css';
 
 export default class ContactForm extends React.Component {
 
@@ -90,22 +90,22 @@ export default class ContactForm extends React.Component {
                   <input placeholder="Email" className='textField' name="email" type="text" value={this.state.email} onChange={this.handleInputChange} />
                   <input placeholder="Phone" className='textField' name="phone" type="text" value={this.state.phone} onChange={this.handleInputChange} />
 
-                  <p>You would like to get involved as a...</p>
+                  <p>How can I assist you in your quilting needs?</p>
                   <div className="RadioBox">
                     <div>
-                      <input className='radio' value="participant" name="selected" type="radio" checked={this.state.selected === "participant"}
+                      <input className='radio' value="questions" name="selected" type="radio" checked={this.state.selected === "questions"}
                           onChange={this.handleInputChange} />
-                          <p>Participant</p>
+                          <p>Questions</p>
                     </div>
                     <div>
-                      <input className='radio' value="mentor" name="selected" type="radio" checked={this.state.selected === "mentor"}
+                      <input className='radio' value="quotes" name="selected" type="radio" checked={this.state.selected === "quotes"}
                           onChange={this.handleInputChange} />
-                          <p>Mentor </p>
+                          <p>Quotes </p>
                     </div>
                     <div>
-                      <input className='radio' value="instructor" name="selected" type="radio" checked={this.state.selected === "instructor"}
+                      <input className='radio' value="orders" name="selected" type="radio" checked={this.state.selected === "orders"}
                           onChange={this.handleInputChange} />
-                          <p>Instructor</p>
+                          <p>Orders</p>
                     </div>
                   </div>
                   <textarea name="comment" type="text" value={this.state.comment} onChange={this.handleInputChange} />
