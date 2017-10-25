@@ -9,7 +9,7 @@ class Grit extends React.Component {
     return (
       <div>
         <Main />
-        <Mission />
+        
         <div className="statsMainContainer">
           <h1 className='orange stats'> STATISTICS </h1>
             <div className="flexWrapper">
@@ -17,7 +17,7 @@ class Grit extends React.Component {
 
             </div>
           </div>
-        
+
         <Contact />
       </div>
     );
