@@ -113,7 +113,7 @@ export default class ContactForm extends React.Component {
                   <input type="submit" value="Click to Submit" />
               </form>
             </div>
-                      <EmailConfirm message={this.state.emailSuccess}/>
+                      <emailConfirm message={this.state.emailSuccess}/>
           </div>
           );
         }
