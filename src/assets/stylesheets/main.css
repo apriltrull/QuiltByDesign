@@ -5,7 +5,7 @@ html, body {
   font-family: arial, sans-serif;
 }
 
-.headerImg {
+/*.headerImg {
   background-image: url('../img/gritHeaderImg.jpg');
   z-index:50;
   height:100vh;
@@ -18,7 +18,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+}*/
 
 h1, h2 {
   z-index: 100;
