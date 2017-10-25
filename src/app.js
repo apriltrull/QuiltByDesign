@@ -26,7 +26,7 @@ app.use(logger('combined', { stream: accessLogStream }));
 
 // http GET default page at /
 app.get("/", function (request, response) {
-  response.sendFile(path.join(__dirname + '/assets/index.html'));
+  response.sendFile(path.join(__dirname + '/assets/contactForm.js'));
 });
 
 // 404 for page not found requests
@@ -35,24 +35,24 @@ app.get(function (request, response) {
 });
 
 // http GET /about
-app.get("/about", function (request, response) {
-  response.sendFile(path.join(__dirname + '/assets/about.html'));
-});
+// app.get("/about", function (request, response) {
+//   response.sendFile(path.join(__dirname + '/assets/about.html'));
+// });
 
 // http GET /contact
-app.get("/contact", function (req, res) {
-  res.sendFile(path.join(__dirname + '/assets/contact.html'));
+app.get("/emailConfirm", function (req, res) {
+  res.sendFile(path.join(__dirname + '/assets/emailConfirm.js'));
 });
 
 // http POST /contact
-app.post("/contact", function (req, res) {
+app.post("/contactForm", function (req, res) {
   var name = req.body.inputname;
   var email = req.body.inputemail;
-  var company = req.body.inputcompany;
+  var phone = req.body.inputphone;
   var comment = req.body.inputcomment;
   var isError = false;
 
-  if (company) {
+  if (email) {
     isError = true;
   }
   console.log('\nCONTACT FORM DATA: '+ name + ' '+email + ' '+ comment+'\n');
