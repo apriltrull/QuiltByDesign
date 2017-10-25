@@ -48,7 +48,7 @@ export default class ContactForm extends React.Component {
       const that = this;
       if (this.checkForm()) {
         let noError = true;
-        axios.post('https://quilt-by-design.herokuapp.com', {
+        axios.post('https://quilt-by-design.herokuapp.com/contact/', {
             name: this.state.name,
             email: this.state.email,
             phone: this.state.phone,
