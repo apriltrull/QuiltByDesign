@@ -1,7 +1,6 @@
 import React from 'react';
 import ContactForm from './contactForm.js';
 import '../assets/stylesheets/contact.css';
-import Guts from '../assets/img/guts.png';
 
 
 export default class Contact extends React.Component {
