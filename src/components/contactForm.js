@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import EmailConfirm from './emailConfirm';
-import { SubmitAni } from './animations';
+import { SubmitAni } from './animation';
 import '../assets/stylesheets/contactForm.css';
 
 export default class ContactForm extends React.Component {
