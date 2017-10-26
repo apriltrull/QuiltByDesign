@@ -4,6 +4,7 @@ import Main from './components/main.js';
 import Contact from './components/contact.js';
 import './assets/stylesheets/index.css';
 import Progress from './components/progress.js';
+import Introduction from './components/introduction.js';
 
 class Grit extends React.Component {
   render() {
