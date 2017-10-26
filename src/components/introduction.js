@@ -12,7 +12,7 @@ export default class Introduction extends React.Component {
 
             <div className = "bio">
             <img src ={Becky} alt="becky with longarm"/>
-              <h1className='orange'>Becky Wilcox</h1>
+              <h1 className='orange'>Becky Wilcox</h1>
               <h2>Becky has been longarm quilting since 2002.  etc etc etc</h2>
             </div>
 
