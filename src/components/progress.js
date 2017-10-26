@@ -2,7 +2,10 @@ import React from 'react';
 import '../assets/stylesheets/progress.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Becky from '../assets/img/quilt-by-design-becky-wilcox.jpg';
-
+import Mallard from '../assets/img/mallard.jpg';
+import Swan from '../assets/img/swan.jpg';
+import FlyingSwan from '../assets/img/flyingSwan.jpg';
+import Loons from '../assets/img/loons.jpg';
 
 export default class Progress extends React.Component {
   constructor() {
@@ -68,22 +71,22 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">2 / 10</div>
-              <img src={girlsChopsaw} alt="girl working with table saw" style={{width:'100%'}} />
+              <img src={Mallard} alt="mallard bird" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">3 / 10</div>
-              <img src={girlsWelding} alt="girl working with table saw" style={{width:'100%'}} />
+              <img src={Swan} alt="swimming swan" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">4 / 10</div>
-              <img src={girlsSaw} alt="girl working with table saw" style={{width:'100%'}} />
+              <img src={FlyingSwan} alt="swan flying" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">5 / 10</div>
-              <img src={girlsDrill} alt="girl working with table saw" style={{width:'100%'}} />
+              <img src={Loons} alt="swimming loons" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
