@@ -3,23 +3,20 @@
   margin:0;
 }
 
-.introduction {
-  background-attachment: fixed;
-}
-
-.introduction h1 {
+.introdudction h1 {
   padding: 20px;
-  font-size:5em;
+  font-size:3em;
 }
 
-/*.intro{
+.intro{
   display:flex;
   align-items: flex-start;
   z-index: 100;
 
-}*/
+}
 .bio {
   display:flex;
+  flex-direction: row;
   align-items: flex-start;
   text-align: center;
   font-size: 2vw;
