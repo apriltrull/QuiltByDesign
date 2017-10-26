@@ -8,18 +8,17 @@
   font-size:3em;
 }
 
-/*.intro{
-  display:flex;
-  align-items: flex-start;
-  z-index: 100;
 
-}*/
 .bio {
   display:flex;
   flex-direction: row;
   align-items: flex-start;
   text-align: center;
   font-size: 2vw;
-  color: black;
 
+ }
+
+ .bio-text {
+   font-size: 15px;
+   color: black;
  }
