@@ -14,6 +14,13 @@
 
 .intro{
   display:flex;
+  align-items: flex-start;
+  z-index: 100;
 
 }
- 
+.bio {
+  text-align: center;
+  font-size: 2vw;
+  color: "black";
+
+ }
