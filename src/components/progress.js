@@ -87,27 +87,27 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">6 / 10</div>
-              <img src=/home/osboxes/Dropbox/20150216_1069 (copy).jpg alt = "large square"  style={{width:'100%'}} />
+              <img src="/home/osboxes/Dropbox/20150216_1069 (copy).jpg" alt = "large square"  style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">7 / 10</div>
-              <img src=/home/osboxes/Dropbox/20130417_0284 (copy).jpg alt = "single square, light green"  style={{width:'100%'}} />
+              <img src="/home/osboxes/Dropbox/20130417_0284 (copy).jpg" alt = "single square, light green"  style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">8 / 10</div>
-              <img src=/home/osboxes/Dropbox/20110129_1031.jpg alt = "single pink flower" style={{width:'100%'}} />
+              <img src="/home/osboxes/Dropbox/20110129_1031.jpg" alt = "single pink flower" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">9 / 10</div>
-              <img src=/home/osboxes/Dropbox/20110111_0879 (copy).jpg alt="single square" style={{width:'100%'}} />
+              <img src="/home/osboxes/Dropbox/20110111_0879 (copy).jpg" alt="single square" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">10 / 10</div>
-              <img src=/home/osboxes/Dropbox/20110111_0881 (copy).jpg alt = "single square with flowers" style={{width:'100%'}} />
+              <img src="/home/osboxes/Dropbox/20110111_0881 (copy).jpg" alt = "single square with flowers" style={{width:'100%'}} />
             </div>
 
             <a className="prev" onClick={this.minusSlidesClick}>&#10094;</a>
