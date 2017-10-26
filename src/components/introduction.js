@@ -11,8 +11,8 @@ export default class Introduction extends React.Component {
         <div className="intro">
 
             <div>
-            <img src ={Becky} alt="becky with longarm" style={width:100%}/>
-              <h1 className="grit" style={text-align:right}>Becky Wilcox</h1>
+            <img src ={Becky} alt="becky with longarm"/>
+              <h1 className="grit" >Becky Wilcox</h1>
               <h2>Becky has been longarm quilting since 2002.  etc etc etc</h2>
             </div>
 
