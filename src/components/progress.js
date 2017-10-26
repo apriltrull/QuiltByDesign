@@ -11,7 +11,7 @@ import BlueButterfly from '../assets/img/blueButterfly.jpg';
 import Cats from '../assets/img/cats.jpg';
 import Checkerboard from '../assets/img/checkerboard.jpg';
 import GreenSquare from '../assets/img/greensquare.jpg';
-
+import TexasSun from '../assets/img/texasSun.jpg';
 
 export default class Progress extends React.Component {
   constructor() {
@@ -72,7 +72,7 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">1 / 10</div>
-              <img src={Becky} alt="pic of Becky with longarm" style={{width:'100%'}} />
+              <img src={TexasSun} alt="picture of a texas sun shape" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
