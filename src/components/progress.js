@@ -66,27 +66,27 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">1 / 10</div>
-              <img src={Becky} alt="pic of Becky with longarm" style={{width:'100%'}} />
+              <img src={Becky} alt=" " style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">2 / 10</div>
-              <img src={Mallard} alt="mallard bird" style={{width:'100%'}} />
+              <img src={Mallard} alt=" " style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">3 / 10</div>
-              <img src={Swan} alt="swimming swan" style={{width:'100%'}} />
+              <img src={Swan} alt=" " style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">4 / 10</div>
-              <img src={FlyingSwan} alt="swan flying" style={{width:'100%'}} />
+              <img src={FlyingSwan} alt=" " style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">5 / 10</div>
-              <img src={Loons} alt="swimming loons" style={{width:'100%'}} />
+              <img src={Loons} alt=" " style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
