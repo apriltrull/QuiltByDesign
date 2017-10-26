@@ -1,0 +1,19 @@
+.orange {
+  background-color: #800040;
+  margin:0;
+}
+
+.introduction {
+  background-attachment: fixed;
+}
+
+.introduction h1 {
+  padding: 20px;
+  font-size:5em;
+}
+
+.intro{
+  display:flex;
+
+}
+ 

@@ -1,11 +1,17 @@
 import React from 'react';
 import '../assets/stylesheets/progress.css';
 // import ScrollAnimation from 'react-animate-on-scroll';
-import Becky from '../assets/img/quilt-by-design-becky-wilcox.jpg';
+
 import Mallard from '../assets/img/mallard.jpg';
 import Swan from '../assets/img/swan.jpg';
 import FlyingSwan from '../assets/img/flyingSwan.jpg';
 import Loons from '../assets/img/loons.jpg';
+import Ants from '../assets/img/ants.jpg';
+import BlueButterfly from '../assets/img/blueButterfly.jpg';
+import Cats from '../assets/img/cats.jpg';
+import Checkerboard from '../assets/img/checkerboard.jpg';
+import GreenSquare from '../assets/img/greensquare.jpg';
+
 
 export default class Progress extends React.Component {
   constructor() {
@@ -66,52 +72,52 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">1 / 10</div>
-              <img src={Becky} alt=" " style={{width:'100%'}} />
+              <img src={Becky} alt="pic of Becky with longarm" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">2 / 10</div>
-              <img src={Mallard} alt=" " style={{width:'100%'}} />
+              <img src={Mallard} alt="mallard bird" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">3 / 10</div>
-              <img src={Swan} alt=" " style={{width:'100%'}} />
+              <img src={Swan} alt="swimming swan" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">4 / 10</div>
-              <img src={FlyingSwan} alt=" " style={{width:'100%'}} />
+              <img src={FlyingSwan} alt="swan flying" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">5 / 10</div>
-              <img src={Loons} alt=" " style={{width:'100%'}} />
+              <img src={Loons} alt="swimming loons" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">6 / 10</div>
-              <img src="/home/osboxes/Dropbox/20150216_1069 (copy).jpg" alt = "large square"  style={{width:'100%'}} />
+              <img src={Ants} alt = "trail of ants"  style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">7 / 10</div>
-              <img src="/home/osboxes/Dropbox/20130417_0284 (copy).jpg" alt = "single square, light green"  style={{width:'100%'}} />
+              <img src={BlueButterfly} alt = "blue butterfly"  style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">8 / 10</div>
-              <img src="/home/osboxes/Dropbox/20110129_1031.jpg" alt = "single pink flower" style={{width:'100%'}} />
+              <img src={Cats}alt = "cat quilt" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">9 / 10</div>
-              <img src="/home/osboxes/Dropbox/20110111_0879 (copy).jpg" alt="single square" style={{width:'100%'}} />
+              <img src={Checkerboard} alt="x checkerboard" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
               <div className="numbertext">10 / 10</div>
-              <img src="/home/osboxes/Dropbox/20110111_0881 (copy).jpg" alt = "single square with flowers" style={{width:'100%'}} />
+              <img src={GreenSquare}alt = "light green square" style={{width:'100%'}} />
             </div>
 
             <a className="prev" onClick={this.minusSlidesClick}>&#10094;</a>
