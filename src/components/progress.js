@@ -10,7 +10,7 @@ import Ants from '../assets/img/ants.jpg';
 import BlueButterfly from '../assets/img/blueButterfly.jpg';
 import Cats from '../assets/img/cats.jpg';
 import Checkerboard from '../assets/img/checkerboard.jpg';
-import GreenSquare from '../assets/img/greensquare.jpg';
+import GreenSquare from '../assets/img/greenSquare.jpg';
 import TexasSun from '../assets/img/texasSun.jpg';
 
 export default class Progress extends React.Component {
