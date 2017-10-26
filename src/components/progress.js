@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/stylesheets/progress.css';
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 import Becky from '../assets/img/quilt-by-design-becky-wilcox.jpg';
 import Mallard from '../assets/img/mallard.jpg';
 import Swan from '../assets/img/swan.jpg';
