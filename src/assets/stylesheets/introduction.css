@@ -3,24 +3,26 @@
   margin:0;
 }
 
-.introduction {
+/*.introduction {
   background-attachment: fixed;
 }
 
 .introduction h1 {
   padding: 20px;
   font-size:5em;
-}
+}*/
 
-.intro{
+/*.intro{
   display:flex;
   align-items: flex-start;
   z-index: 100;
 
-}
+}*/
 .bio {
+  display:flex;
+  align-items: flex-start;
   text-align: center;
   font-size: 2vw;
-  color: "black";
+  color: black;
 
  }

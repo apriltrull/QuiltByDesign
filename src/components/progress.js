@@ -72,7 +72,7 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">1 / 10</div>
-              <img src={TexasSun} alt="picture of a texas sun shape" style={{width:'100%'}} />
+              <img src={TexasSun} alt="texas sun shape" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
