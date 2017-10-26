@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/stylesheets/progress.css';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Becky from '../assets/img/quilt-by-design-becky-wilcox.jpg';
 
 
 export default class Progress extends React.Component {
@@ -62,7 +63,7 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">1 / 10</div>
-              <img src={girlsBike} alt="girl working with table saw" style={{width:'100%'}} />
+              <img src={Becky} alt="pic of Becky with longarm" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
