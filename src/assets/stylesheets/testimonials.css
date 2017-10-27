@@ -1,0 +1,23 @@
+.orange {
+  background-color: #800040;
+  margin:0;
+}
+
+.testimonials h1 {
+  padding: 20px;
+  font-size:3em;
+}
+
+.talk {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 2vw;
+
+ }
+
+ .talk-text {
+   font-size: 1em;
+   color: black;
+ }

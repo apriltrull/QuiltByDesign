@@ -6,6 +6,7 @@ import './assets/stylesheets/index.css';
 import Progress from './components/progress.js';
 import Introduction from './components/introduction.js';
 import Tips from './components/tips.js';
+import Testimonial from './components/testimonials.js';
 
 
 class Grit extends React.Component {
