@@ -2,7 +2,7 @@ html, body {
   margin: 0 auto;
 }
 * {
-  font-family:serif, monospace;
+  font-family:serif, serif;
 }
 
 .headerImg {
@@ -39,7 +39,7 @@ html, body {
 .extend {
   font-size: 2em;
   margin: 0;
-  padding-bottom: 1vh;
+  /*padding-bottom: 1vh;*/
   text-shadow: 2px 2px 3px #000000;
 
 }
