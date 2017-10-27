@@ -32,12 +32,13 @@ html, body {
   display:flex;
   flex-direction: row;
   justify-content: left;
+  padding-bottom: 1.5em;
 }
 
 .extend {
   font-size: 2em;
   margin: 0;
-  padding-bottom: .5em;
+  /*padding-bottom: .5em;*/
   text-shadow: 2px 2px 3px #000000;
 
 }
@@ -47,7 +48,7 @@ html, body {
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  padding-bottom:1.5em;
+  /*padding-bottom:1.5em;*/
 
 }
 
