@@ -2,7 +2,7 @@ html, body {
   margin: 0 auto;
 }
 * {
-  font-family:monospace, serif;
+  font-family:serif, serif;
 }
 
 .headerImg {
@@ -23,7 +23,7 @@ html, body {
 
 h1, h2 {
   z-index: 100;
-  text-align: center;
+  text-align: left;
   color:white;
 
 }
