@@ -37,7 +37,7 @@ html, body {
 .extend {
   font-size: 2em;
   margin: 0;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   text-shadow: 2px 2px 3px #000000;
 
 }
@@ -47,7 +47,7 @@ html, body {
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  padding-bottom:2em;
+  padding-bottom:1.5em;
 
 }
 
