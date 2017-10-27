@@ -9,8 +9,8 @@ export default class Main extends React.Component {
         <div className="headerImg">
 
             <div>
-              <h1 className="grit">Quilting By Design</h1>
-              <h2>Professional Longarm Quilting by Becky Wilcox</h2>
+              <h1 className="quilt">Quilting With Class</h1>
+              <h2 className = "extend">.....Professional Longarm Quilting by Becky Wilcox</h2>
             </div>
 
         </div>
