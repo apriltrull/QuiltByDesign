@@ -31,7 +31,7 @@ html, body {
 .header {
   display:flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: left;
 }
 
 .extend {
@@ -47,7 +47,7 @@ html, body {
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  padding-bottom:1em;
+  padding-bottom:2em;
 
 }
 
