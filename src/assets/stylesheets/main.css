@@ -31,12 +31,13 @@ html, body {
 .header {
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: left;
   padding-bottom: 1.5em;
 }
 
 .extend {
-  font-size: 2em;
+  font-size: 7em;
   margin: 0;
   /*padding-bottom: .5em;*/
   text-shadow: 2px 2px 3px #000000;
