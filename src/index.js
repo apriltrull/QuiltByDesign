@@ -6,7 +6,7 @@ import './assets/stylesheets/index.css';
 import Progress from './components/progress.js';
 import Introduction from './components/introduction.js';
 import Tips from './components/tips.js';
-import Testimonial from './components/testimonials.js';
+import Testimonials from './components/testimonials.js';
 
 
 class Grit extends React.Component {
@@ -16,15 +16,9 @@ class Grit extends React.Component {
         <Main />
         <Introduction/>
 
-        // <div className="statsMainContainer">
-        //   <h1 className='orange stats'> Meet Your Professional Longarm Quilting Team </h1>
-        //     <div className="flexWrapper">
-        //
-        //     </div>
-        //   </div>
 
          <Progress/>
-         <Testimonial/>
+         <Testimonials/>
          <Tips/>
         <Contact />
       </div>

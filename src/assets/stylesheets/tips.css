@@ -1,0 +1,23 @@
+.orange {
+  background-color: #800040;
+  margin:0;
+}
+
+.creativity h1 {
+  padding: 20px;
+  font-size:3em;
+}
+
+.tips {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: 2vw;
+
+ }
+
+ .tips-text {
+   font-size: 1em;
+   color: black;
+ }
