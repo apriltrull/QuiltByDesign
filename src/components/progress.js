@@ -23,7 +23,7 @@ import Pink from '../assets/img/pinkFlower.jpg';
 import Purple from '../assets/img/purpleFlowers.jpg';
 import PurpleSquare from '../assets/img/purplesquare.jpg';
 import Red from '../assets/img/redSquare.jpg';
-import Smallfly from '../assets/img/smallYellowButterfly';
+import Smallfly from '../assets/img/smallYellowButterfly.jpg';
 import TwoBettys from '../assets/img/twoBettys.jpg';
 import TwoBirds from '../assets/img/twoBirds.jpg';
 import YellowSquare from '../assets/img/yellowSquare.jpg';
