@@ -16,12 +16,12 @@ class Grit extends React.Component {
         <Main />
         <Introduction/>
 
-        <div className="statsMainContainer">
-          <h1 className='orange stats'> Meet Your Professional Longarm Quilting Team </h1>
-            <div className="flexWrapper">
-
-            </div>
-          </div>
+        // <div className="statsMainContainer">
+        //   <h1 className='orange stats'> Meet Your Professional Longarm Quilting Team </h1>
+        //     <div className="flexWrapper">
+        //
+        //     </div>
+        //   </div>
 
          <Progress/>
          <Testimonial/>
