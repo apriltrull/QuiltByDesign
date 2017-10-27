@@ -1,5 +1,5 @@
 import React from 'react';
-import Testimonials from '../assets/stylesheets/testimonials.css';
+import '../assets/stylesheets/testimonials.css';
 
 export default class Testimonials extends React.Component {
 
