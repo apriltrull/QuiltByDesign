@@ -7,19 +7,6 @@
   padding: 20px;
   font-size:3em;
 }
- /*.intro{
-   z-index:50;
-   height:100vh;
-   width: 100%;
-   margin:0;
-   display: flex;
-   justify-content: flex-end;
-   flex-direction: column;
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
- }*/
 
 .bio {
   display:flex;
@@ -27,11 +14,6 @@
   justify-content: flex-start;
   text-align: center;
   font-size: 2vw;
-  z-index:50;
-  height:50vh;
-  width: 100%;
-  margin:0;
-
 
  }
 
