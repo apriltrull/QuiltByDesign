@@ -23,7 +23,7 @@ import Pink from '../assets/img/pinkFlower.jpg';
 import Purple from '../assets/img/purpleFlowers.jpg';
 import PurpleSquare from '../assets/img/purplesquare.jpg';
 import Red from '../assets/img/redSquare.jpg';
-import SmallButterfly from '../assets/img/smallYellowButterfly';
+import Smallfly from '../assets/img/smallYellowButterfly';
 import TwoBettys from '../assets/img/twoBettys.jpg';
 import TwoBirds from '../assets/img/twoBirds.jpg';
 import YellowSquare from '../assets/img/yellowSquare.jpg';
@@ -198,7 +198,7 @@ export default class Progress extends React.Component {
 
             <div className="mySlides fade">
               <div className="numbertext">23 / 25</div>
-              <img src={SmallButterfly}alt = "small butterfly" style={{width:'100%'}} />
+              <img src={Smallfly}alt = "small butterfly" style={{width:'100%'}} />
             </div>
 
             <div className="mySlides fade">
