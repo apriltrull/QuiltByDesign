@@ -19,6 +19,7 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
 
+
 }
 
  h1, h2 {
@@ -31,7 +32,6 @@ html, body {
 .header {
   display:flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: left;
   padding-bottom: 1em;
 }
