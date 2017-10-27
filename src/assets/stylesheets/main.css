@@ -22,13 +22,6 @@ html, body {
 
 }
 
- h1, h2 {
-  z-index: 100;
-  text-align: center;
-  color:white;
-
-}
-
 .header {
   display:flex;
   flex-direction: row;
@@ -53,10 +46,23 @@ html, body {
 
 }
 
+
+ /*h1, h2 {
+  z-index: 100;
+  text-align: center;
+  color:white;
+
+}*/
+
+
 .orange {
   background-color: #ffe680;
   margin:0;
   text-shadow: 2px 2px 5px #000000;
+  z-index: 100;
+  text-align: center;
+  color:white;
+
 }
 
 /*.yellow {
