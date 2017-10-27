@@ -11,7 +11,9 @@ export default class Tips extends React.Component {
               <h1 className='orange'>Beckys Creative Tip Corner</h1>
             <div className = "tips">
 
-              <h2 className = "tips-text">"I found Becky to be very friendly and professional.  My quilts got done in a timely manner and she and Bill did a great job.   Im so pleased with the results.  I will be sending her all of my quilts."</h2>
+              <h2 className = "tips-text">A great way to keep your fabrics from stritching while quilting is to prewash your fabrics before using them.</h2>
+              <h2>Always square your quilts before sending them to your longarm quilter</h2>
+              <h2>Iron your seams in the same direction, remembering to press, not pull on you fabrics</h2>
             </div>
 
         </div>
