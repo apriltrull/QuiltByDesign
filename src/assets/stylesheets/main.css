@@ -28,6 +28,12 @@ html, body {
 
 }
 
+.header {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 .extend {
   font-size: 2em;
   margin: 0;
@@ -41,9 +47,7 @@ html, body {
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
+
 }
 
 .orange {
