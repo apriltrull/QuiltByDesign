@@ -1,6 +1,7 @@
 import React from 'react';
 import  '../assets/stylesheets/introduction.css';
 import Becky from  '../assets/img/quilt-by-design-becky-wilcox.jpg';
+import '../assets/stylesheets/index.css';
 
 
 export default class Introduction extends React.Component {
