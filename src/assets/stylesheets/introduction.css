@@ -11,17 +11,14 @@
 
 .bio {
   display:flex;
-  flex-direction: row;
-
+  flex-direction: column;
   text-align: center;
   /*font-size: 2vw;*/
   z-index:50;
   height:59vh;
   width: 50%;
   margin:0;
-
   justify-content: flex-end;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
