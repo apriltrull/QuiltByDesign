@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
+@media screen and (max-width: 950px) {
+
+
 .contactContainer {
   display: flex;
   flex-direction: column;
@@ -68,7 +71,7 @@ h4 {
  a:active {
     color: #CCC;
   }
-
+}
   /* <<<<<<<<<<<<<<<<<<<<<<<<<<< 700 px and smaller styles >>>>>>>>>>>>>>>>>>>>>>>>> */
   @media (max-width: 849px) and (min-width:300px) {
 

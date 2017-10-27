@@ -10,9 +10,9 @@
   height: 18%;
 }
 
-.statsMainContainer {
+/*.statsMainContainer {
   height: 100vh;
-}
+}*/
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<< 950 px and smaller styles >>>>>>>>>>>>>>>>>>>>>>>>> */
 @media screen and (max-width: 950px) {
