@@ -2,7 +2,7 @@ html, body {
   margin: 0 auto;
 }
 * {
-  font-family:inherit, serif;
+  font-family:serif, serif;
 }
 
 .headerImg {
@@ -31,6 +31,8 @@ html, body {
 }
 }
 .extend {
+  display:flex;
+  flex-direction: row;
   font-size: 2em;
   margin: 0;
   text-shadow: 2px 2px 3px #000000;
@@ -40,6 +42,8 @@ html, body {
 }
 
 .quilt {
+  display:flex;
+  flex-direction: row;
   color: white;
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
