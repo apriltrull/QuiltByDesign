@@ -31,8 +31,7 @@ html, body {
 }
 }
 .extend {
-  display:flex;
-  flex-direction: row;
+
   font-size: 2em;
   margin: 0;
   text-shadow: 2px 2px 3px #000000;
@@ -42,8 +41,7 @@ html, body {
 }
 
 .quilt {
-  display:flex;
-  flex-direction: row;
+
   color: white;
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
@@ -61,7 +59,7 @@ html, body {
 }*/
 
 
-.orange {
+/*.orange {
   background-color: #ffe680;
   margin:0;
   text-shadow: 2px 2px 5px #000000;
@@ -69,7 +67,7 @@ html, body {
   text-align: center;
   color:white;
 
-}
+}*/
 
 /*.yellow {
   background-color: #f69d00;
