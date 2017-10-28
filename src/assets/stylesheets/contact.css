@@ -47,9 +47,9 @@
 
 .contactFlex h4 {
   padding-top: 5%;
-  /*font-size: 3vw;*/
-}
 
+}
+@media (max-width: 1450px) and (min-width:851px) {
 h4 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: #000 !important;
@@ -58,7 +58,7 @@ h4 {
   margin: 5%;
 
 }
-
+}
   a {
     color: #000;
     text-decoration: none;
