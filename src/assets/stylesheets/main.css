@@ -2,7 +2,7 @@ html, body {
   margin: 0 auto;
 }
 * {
-  font-family:sans-serif, serif;
+  font-family:monospace, serif;
 }
 
 .headerImg {
