@@ -1,19 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600");
 
+@media (max-width: 1450px) and (min-width:851px) {
 
 .contactContainer {
   display: flex;
   flex-direction: column;
 }
-
+}
 .contactHeader {
     padding: .3em;
-    font-size:3vw;
+    /*font-size:3vw;*/
     width: 100%;
     background-color: #FD5A1E;
     color: white;
     text-shadow: 2px 2px 5px #000000;
   }
+  @media (max-width: 1450px) and (min-width:851px) {
 
 .contactMain {
   height: 100%;
@@ -24,7 +26,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+}
 .contactContent {
   display: flex;
   flex-direction: row;
@@ -45,7 +47,7 @@
 
 .contactFlex h4 {
   padding-top: 5%;
-  font-size: 3vw;
+  /*font-size: 3vw;*/
 }
 
 h4 {
