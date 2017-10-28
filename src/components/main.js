@@ -1,6 +1,6 @@
 import React from 'react';
 import  '../assets/stylesheets/main.css';
-import Barn from '../assets/img/barn-quilt.jpg';
+
 
 export default class Main extends React.Component {
 
@@ -8,7 +8,7 @@ export default class Main extends React.Component {
     return (
 
         <div className="headerImg">
-         <img src ={Barn} alt="barn with quilt"/>
+
             <div className = "header">
 
               <h1 className="quilt">Quilting With Class</h1>
