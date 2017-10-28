@@ -4,7 +4,7 @@ html, body {
 * {
   font-family:serif, serif;
 }
-
+@media (max-width: 1450px) and (min-width:851px) {
 .headerImg {
   background-image: url(https://cdn.pixabay.com/photo/2017/08/28/15/30/barn-2689965__340.jpg);
   z-index:50;
