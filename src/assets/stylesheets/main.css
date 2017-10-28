@@ -2,9 +2,9 @@ html, body {
   margin: 0 auto;
 }
 
-@import "css-font-family";
+
 * {
- font-family: georgia, serif; 
+ font-family: georgia, serif;
 
 }
 .headerImg {
