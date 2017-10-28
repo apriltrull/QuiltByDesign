@@ -14,13 +14,10 @@
   flex-direction: row;
   justify-content: flex-start;
   text-align: center;
-
-
+  }
  }
 
  .bio-text {
-   display:flex;
    font-size: 1em;
    color: black;
  }
-}
