@@ -8,7 +8,7 @@
 
 .contactHeader {
     padding: .3em;
-    font-size:2vw;
+    font-size:3vw;
     width: 100%;
     background-color: #FD5A1E;
     color: white;
@@ -45,6 +45,7 @@
 
 .contactFlex h4 {
   padding-top: 5%;
+  font-size: 3vw;
 }
 
 h4 {
