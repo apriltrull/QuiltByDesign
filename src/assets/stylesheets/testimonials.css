@@ -7,7 +7,7 @@
   padding: 20px;
   font-size:3em;
 }
-
+@media screen and (max-width: 950px) {
 .talk {
   display:flex;
   flex-direction: row;
@@ -16,7 +16,7 @@
   font-size: 2vw;
 
  }
-@media screen and (max-width: 950px) {
+
  .talk-text {
    font-size: 1em;
    color: black;
