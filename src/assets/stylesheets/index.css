@@ -2,14 +2,14 @@
   display: flex;
   height: 82%;
 }
-
+@media (max-width: 1450px) and (min-width:851px) {
 .orange {
   background-color:#800040;
   margin:0;
   padding:20px;
   height: 18%;
 }
-
+}
 /*.statsMainContainer {
   height: 100vh;
 }*/
