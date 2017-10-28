@@ -8,7 +8,7 @@
   margin:0;
   padding:20px;
   height: 18%;
-  
+
 }
 }
 /*.statsMainContainer {
@@ -16,7 +16,7 @@
 }*/
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<< 950 px and smaller styles >>>>>>>>>>>>>>>>>>>>>>>>> */
-@media screen and (max-width: 950px) {
+/*@media screen and (max-width: 950px) {
 
   .statsMainContainer {
     height: auto;
@@ -29,10 +29,10 @@
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<< 1150 px and smaller styles >>>>>>>>>>>>>>>>>>>>>>>>> */
-@media screen and (max-width: 1150px) {
+/*@media screen and (max-width: 1150px) {
 
   .statsMainContainer {
     height: auto;
   }
 
-}
+}*/
