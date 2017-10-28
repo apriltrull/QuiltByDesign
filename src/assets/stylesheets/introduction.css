@@ -8,13 +8,13 @@
   padding: 20px;
   font-size:3em;
 }
-@media (max-width: 849px) and (min-width:300px) {
+@media (max-width: 1450px) and (min-width:851px) {
 .bio {
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
   text-align: center;
-  font-size: 2vw;
+  
 
  }
 
