@@ -20,7 +20,6 @@ html, body {
   background-size: cover;
 
 }
-@media (max-width: 1450px) and (min-width:851px) {
 .header {
   display:flex;
   flex-direction: row;
@@ -29,7 +28,7 @@ html, body {
   padding-bottom: 1em;
   color:white;
 }
-}
+
 .extend {
 
   font-size: 2em;
@@ -39,6 +38,7 @@ html, body {
   padding-bottom: 1em;
 
 }
+@media (max-width: 1450px) and (min-width:851px) {
 
 .quilt {
 
@@ -49,7 +49,7 @@ html, body {
   padding-bottom:1em;
 
 }
-
+}
 
  /*h1, h2 {
   z-index: 100;
@@ -59,7 +59,7 @@ html, body {
 }*/
 
 
-/*.orange {
+.orange {
   background-color: #ffe680;
   margin:0;
   text-shadow: 2px 2px 5px #000000;
@@ -67,7 +67,7 @@ html, body {
   text-align: center;
   color:white;
 
-}*/
+}
 
 /*.yellow {
   background-color: #f69d00;
