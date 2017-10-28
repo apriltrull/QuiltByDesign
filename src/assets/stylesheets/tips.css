@@ -16,8 +16,9 @@
   font-size: 2vw;
 
  }
-
+@media (max-width: 1450px) and (min-width:851px) {
  .tips-text {
    font-size: 1em;
    color: black;
  }
+}
