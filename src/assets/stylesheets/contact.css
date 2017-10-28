@@ -49,7 +49,7 @@
   padding-top: 5%;
 
 }
-@media (max-width:849px) and (min-width:300px) {
+@media screen and (max-width: 950px) {
 h4 {
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: #000 !important;
