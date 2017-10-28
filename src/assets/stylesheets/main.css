@@ -1,8 +1,8 @@
 html, body {
   margin: 0 auto;
 }
-* {
-  font-family:monospace, serif;
+* atom-workspace {
+    font-family: Hasklig Light;
 }
 
 .headerImg {
