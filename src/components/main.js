@@ -1,6 +1,6 @@
 import React from 'react';
 import  '../assets/stylesheets/main.css';
-import '../assets/stylesheets/css-font-family.css';
+
 
 export default class Main extends React.Component {
 
