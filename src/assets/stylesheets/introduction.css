@@ -20,6 +20,7 @@
 
  .bio-text {
    font-size: 1em;
+   flex-wrap: wrap;
    color: black;
  }
 }
