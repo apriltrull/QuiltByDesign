@@ -12,12 +12,14 @@
 .bio {
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
   text-align: center;
-  }
+
  }
 
  .bio-text {
    font-size: 1em;
    color: black;
  }
+}
