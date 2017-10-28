@@ -16,7 +16,7 @@
 
 
  }
-@media (max-width: 1450px) and (min-width:851px) {
+@media screen and (max-width: 950px) {
  .tips-text {
    font-size: 1em;
    color: black;

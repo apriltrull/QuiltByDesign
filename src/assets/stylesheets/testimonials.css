@@ -16,8 +16,9 @@
   font-size: 2vw;
 
  }
-
+@media screen and (max-width: 950px) {
  .talk-text {
    font-size: 1em;
    color: black;
  }
+}
