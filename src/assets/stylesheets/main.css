@@ -2,11 +2,12 @@ html, body {
   margin: 0 auto;
 }
 
-
+@import "css-font-family";
 * {
  font-family: georgia, serif;
-
 }
+
+
 .headerImg {
   background-image: url(https://cdn.pixabay.com/photo/2017/08/28/15/30/barn-2689965__340.jpg);
   z-index:50;
