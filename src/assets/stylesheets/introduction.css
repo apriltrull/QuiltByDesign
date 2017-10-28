@@ -8,16 +8,16 @@
   padding: 20px;
   font-size:3em;
 }
-@media (max-width: 1450px) and (min-width:851px) {
+@media screen and (max-width: 1150px) {
 .bio {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   text-align: center;
-
+  }
  }
-
+@media screen and (max-width: 950px) {
  .bio-text {
    font-size: 1em;
    flex-wrap: wrap;
