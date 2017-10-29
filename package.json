@@ -26,6 +26,8 @@
     "react-form": "^2.0.1",
     "react-scripts": "^1.0.14",
     "scrollmagic": "^2.0.5"
+  },
+  "devDependencies": {
+    "css-font-family": "^1.0.7"
   }
-
 }
