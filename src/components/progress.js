@@ -49,21 +49,16 @@ export default class Progress extends React.Component {
     const Slideshow = () => {
         return (
 
-
-
       <div className='progress'>
         <h1 className='orange'> Quilt Gallery </h1>
+       </div>
 
-        <br>
         <Fade
           img={images}
           duration="5000"
           transitionDuration="1000"
         />
-        
-         <br/>
-
-      </div>
-    );
-  }
-};
+     );
+   }
+ };
+}
