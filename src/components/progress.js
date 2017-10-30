@@ -37,16 +37,17 @@ import { Fade } from 'react-slideshow-image';
 
 export default class Progress extends React.Component {
 
-  render () {
+  const images = [
+    'img/mallard.jpg',
+    'img/swan.jpg',
+    'img/flyingSwan.jpg',
+    'img/loons.jpg',
+    'img/ants.jpg',
+    'img/blueButterfly.jpg'
+  ];
 
-    const images = [
-      'img/mallard.jpg',
-      'img/swan.jpg',
-      'img/flyingSwan.jpg',
-      'img/loons.jpg',
-      'img/ants.jpg',
-      'img/blueButterfly.jpg'
-    ];
+
+  render () {
 
     const Slideshow = () => {
         return (
