@@ -39,23 +39,25 @@ export default class Progress extends React.Component {
 
   render () {
 
+    const images = [
+      'img/mallard.jpg',
+      'img/swan.jpg',
+      'img/flyingSwan.jpg',
+      'img/loons.jpg',
+      'img/ants.jpg',
+      'img/blueButterfly.jpg'
+    ];
+
     const Slideshow = () => {
         return (
 
       <div className='progress'>
         <h1 className='orange'> Quilt Gallery </h1>
 
-        const images = [
-          'img/mallard.jpg',
-          'img/swan.jpg',
-          'img/flyingSwan.jpg',
-          'img/loons.jpg',
-          'img/ants.jpg',
-          'img/blueButterfly.jpg'
-        ];
+
 
         <Fade
-          images={img}
+          img={images}
           duration="5000"
           transitionDuration="1000" />
       </div>
