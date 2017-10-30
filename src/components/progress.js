@@ -44,7 +44,7 @@ export default class Progress extends React.Component {
 
       <div className='progress'>
         <h1 className='orange'> Quilt Gallery </h1>
-        
+
         const images = [
           'img/mallard.jpg',
           'img/swan.jpg',
@@ -55,11 +55,11 @@ export default class Progress extends React.Component {
         ];
 
         <Fade
-          img={images}
+          images={img}
           duration="5000"
           transitionDuration="1000" />
       </div>
      );
    }
  };
-}
+};
