@@ -24,6 +24,7 @@
     "react-flex-carousel": "^1.0.1",
     "react-form": "^2.0.1",
     "react-scripts": "^1.0.14",
+    "react-slideshow-image": "^0.1.2",
     "scrollmagic": "^2.0.5",
     "webfontloader": "^1.6.28"
   },
