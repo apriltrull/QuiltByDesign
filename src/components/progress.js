@@ -60,7 +60,7 @@ export default class Progress extends React.Component {
           duration="5000"
           transitionDuration="1000"
         />
-         </div>
+        
          <br/>
 
       </div>
