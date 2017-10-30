@@ -1,7 +1,6 @@
 {
   "name": "beckywilcox",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +29,14 @@
   },
   "devDependencies": {
     "css-font-family": "^1.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apriltrull/QuiltByDesign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apriltrull/QuiltByDesign/issues"
+  },
+  "homepage": "https://github.com/apriltrull/QuiltByDesign#readme",
+  "description": ""
 }
