@@ -32,14 +32,7 @@ import { Slide } from 'react-slideshow-image';
 import { Fade } from 'react-slideshow-image';
 
 
-const images = [
-  'img/mallard.jpg',
-  'img/swan.jpg',
-  'img/flyingSwan.jpg',
-  'img/loons.jpg',
-  'img/ants.jpg',
-  'img/blueButterfly.jpg'
-];
+
 
 
 export default class Progress extends React.Component {
@@ -51,11 +44,21 @@ export default class Progress extends React.Component {
 
       <div className='progress'>
         <h1 className='orange'> Quilt Gallery </h1>
+        
+        const images = [
+          'img/mallard.jpg',
+          'img/swan.jpg',
+          'img/flyingSwan.jpg',
+          'img/loons.jpg',
+          'img/ants.jpg',
+          'img/blueButterfly.jpg'
+        ];
+
         <Fade
           img={images}
           duration="5000"
           transitionDuration="1000" />
-      </div>    
+      </div>
      );
    }
  };
