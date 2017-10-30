@@ -32,38 +32,40 @@ import { Slide } from 'react-slideshow-image';
 import { Fade } from 'react-slideshow-image';
 
 
-const images = [
-  'img/mallard.jpg',
-  'img/swan.jpg',
-  'img/flyingSwan.jpg',
-  'img/loons.jpg',
-  'img/ants.jpg',
-  'img/blueButterfly.jpg'
-];
-
-const Slideshow = () => {
-    return (
-        <Slide
-          img={images}
-          duration="5000"
-          transitionDuration="1000"
-        />
-    )
-}
-
-const Slideshow = () => {
-    return (
-        <Fade
-          img={images}
-          duration="5000"
-          transitionDuration="1000"
-        />
-
-
 
 
 
 export default class Progress extends React.Component {
+
+  const images = [
+    'img/mallard.jpg',
+    'img/swan.jpg',
+    'img/flyingSwan.jpg',
+    'img/loons.jpg',
+    'img/ants.jpg',
+    'img/blueButterfly.jpg'
+  ];
+
+  const Slideshow = () => {
+      return (
+          <Slide
+            img={images}
+            duration="5000"
+            transitionDuration="1000"
+          />
+      )
+  }
+
+  const Slideshow = () => {
+      return (
+          <Fade
+            img={images}
+            duration="5000"
+            transitionDuration="1000"
+          />
+
+
+
 
   render () {
     return (
@@ -71,7 +73,7 @@ export default class Progress extends React.Component {
         <h1 className='orange'> Quilt Gallery </h1>
         <br/>
 
-        
+
          </div>
          <br/>
 
