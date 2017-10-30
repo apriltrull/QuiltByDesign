@@ -27,7 +27,7 @@ html, body {
   justify-content: left;
   padding-bottom: 1em;
   color:white;
-  font-family: Ribbon Cursive;
+  font-family: 'Ribbon Cursive', cursive;
 }
 
 .extend {
