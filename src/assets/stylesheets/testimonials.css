@@ -7,15 +7,15 @@
   padding: 20px;
   font-size:3em;
 }
-@media screen and (max-width: 950px) {
+
 .talk {
   display:flex;
   flex-direction: row;
   justify-content: flex-start;
   text-align: center;
-  
 
- }
+
+ 
 
  .talk-text {
    font-size: 1em;

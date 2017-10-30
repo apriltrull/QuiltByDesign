@@ -29,7 +29,6 @@ import TwoBirds from '../assets/img/twoBirds.jpg';
 import YellowSquare from '../assets/img/yellowSquare.jpg';
 
 
-
 export default class Progress extends React.Component {
   constructor() {
     super();
