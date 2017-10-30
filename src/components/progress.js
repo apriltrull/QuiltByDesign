@@ -54,7 +54,7 @@ export default class Progress extends React.Component {
       <div className='progress'>
         <h1 className='orange'> Quilt Gallery </h1>
 
-        <br/>
+        <br>
         <Fade
           img={images}
           duration="5000"
