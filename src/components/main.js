@@ -4,7 +4,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   google: {
-    families: ['Ribbon Cursive:300,400,700', 'cursive']
+    families: ['Ribbon Cursive', 'cursive']
   }
 });
 
