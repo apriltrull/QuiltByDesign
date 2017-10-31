@@ -3,12 +3,12 @@
   margin:0;
   font-size: 3em;
 }
-@media screen and (max-width: 950px) {
+
 .introdudction h1 {
   padding: 20px;
   font-size:3em;
 }
-}
+
 
 .bio {
   display:flex;
