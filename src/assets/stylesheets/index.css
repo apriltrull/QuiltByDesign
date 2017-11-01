@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Ribbon+Cursive');
+
 
 .flexWrapper {
   display: flex;
@@ -11,7 +11,7 @@
   margin:0;
   padding:20px;
   height: 18%;
-  font-size: Ribbon Cursive;
+  
 
 }
 }
