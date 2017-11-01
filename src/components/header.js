@@ -7,7 +7,7 @@ export default class Header extends React.Component {
   render () {
     return {
 
-      <Header className="navContainer"> 
+      <header className="navContainer">
 
         <div className="header">
 
@@ -20,7 +20,7 @@ export default class Header extends React.Component {
 
 
          </div>
-        </Header>
+        </header>
 
     }
   }
