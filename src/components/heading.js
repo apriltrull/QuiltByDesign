@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/stylesheets/heading.css";
-import Link from 'react-router-dom';
+import {Link} from "react-router-dom";
 
 export default class Heading extends React.Component {
 
@@ -12,11 +12,11 @@ export default class Heading extends React.Component {
         <div className="row1">
 
 
-          <Link to="/introduction.js"><li>Quilting Professionals</li></Link>
-          <Link to="/progress.js"><li>Quilt Gallery</li></Link>
-          <Link to="/testimonials.js"><li>Testimonials</li></Link>
-          <Link to="/tips.js"><li>Quilting Tips</li></Link>
-          <Link to="/contact.js"><li>Contact</li></Link>
+          <Link to="/introduction"><li>Quilting Professionals</li></Link>
+          <Link to="/progress"><li>Quilt Gallery</li></Link>
+          <Link to="/testimonials"><li>Testimonials</li></Link>
+          <Link to="/tips"><li>Quilting Tips</li></Link>
+          <Link to="/contact"><li>Contact</li></Link>
 
 
           </div>
