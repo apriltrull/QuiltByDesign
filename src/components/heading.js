@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/stylesheets/heading.css";
-import {Link} from "./assets";
+import {Link} from "./assets/components";
 
 export default class Heading extends React.Component {
 
