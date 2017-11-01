@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../assets/stylesheets/header.css";
+import Header from "../assets/stylesheets/heading.css";
 
 
 export default class Heading extends React.Component {
