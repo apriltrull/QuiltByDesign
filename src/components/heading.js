@@ -8,7 +8,7 @@ export default class Heading extends React.Component {
     return (
 
       <header className="navContainer">
-
+       <ul>
         <div className="row1">
 
 
@@ -19,7 +19,8 @@ export default class Heading extends React.Component {
           <Link to="/contact.js"><li>Contact</li></Link>
 
 
-         </div>
+          </div>
+         </ul> 
         </header>
 
     );
