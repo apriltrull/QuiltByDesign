@@ -1,10 +1,8 @@
 import React from "react";
 import "../assets/stylesheets/heading.css";
-import {Link} from "./assets/components/introduction.js";
-import "./assets/components/progress.js";
-import "./assets/components/testimonials.js";
-import "./tips/components/tips.js";
-import "./assets/components/contact.js";
+import {Link} from "react-dom";
+
+
 
 export default class Heading extends React.Component {
 
