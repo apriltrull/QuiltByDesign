@@ -1,6 +1,6 @@
 import React from 'react';
 import  '../assets/stylesheets/main.css';
-import WebFont from 'webfontloader';
+
 
 WebFont.load({
   google: {
