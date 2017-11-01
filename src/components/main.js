@@ -2,11 +2,6 @@ import React from 'react';
 import  '../assets/stylesheets/main.css';
 
 
-WebFont.load({
-  google: {
-    families: ['Ribbon Cursive', 'cursive']
-  }
-});
 
 export default class Main extends React.Component {
 
