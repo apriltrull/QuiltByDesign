@@ -21,7 +21,7 @@ html, body {
   background-size: cover;
 
 }
-.header {
+.advertise {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
