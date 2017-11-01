@@ -5,7 +5,7 @@ import Header from "../assets/stylesheets/header.css";
 export default class Header extends React.Component {
 
   render () {
-    return {
+    return (
 
       <header className="navContainer">
 
@@ -22,5 +22,5 @@ export default class Header extends React.Component {
          </div>
         </header>
 
-    }
+    );
   }
