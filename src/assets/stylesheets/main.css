@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Ribbon+Cursive');*/
+@import url('https://fonts.googleapis.com/css?family=Ribbon+Cursive');
 
 
 html, body {
@@ -27,7 +27,7 @@ html, body {
   justify-content: left;
   padding-bottom: 1em;
   color:white;
-  font-family: 'Ribbon Cursive', cursive;
+  font-family: Ribbon Cursive;
 }
 
 .extend {
