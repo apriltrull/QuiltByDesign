@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../assets/stylesheets/heading.css";
+import Heading from "../assets/stylesheets/heading.css";
 import {Link} from 'react-router-dom';
 
 export default class Heading extends React.Component {
