@@ -13,7 +13,7 @@ class Grit extends React.Component {
   render() {
     return (
       <div>
-       <Heading/>
+      //  <Heading/>
         <Main />
         <Introduction/>
 
