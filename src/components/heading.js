@@ -24,7 +24,7 @@ export default class NavComponent extends React.Component {
 				</div>
 			</nav>
 		);
-	},
+	}
 	burgerToggle: function() {
 		let linksEl = document.querySelector('.narrowLinks');
 		if (linksEl.style.display === 'block') {
