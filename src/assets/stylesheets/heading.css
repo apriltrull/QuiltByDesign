@@ -30,7 +30,7 @@ nav {
 				display: inline-block;
 
 				 /*Adjust padding to increase/decrease the space between links.*/
-				padding: 0 2em;
+				padding: 5 8em;
 
 
 	}
@@ -56,7 +56,7 @@ nav {
 				display: block;
 				float: left;
 				clear: left;
-				padding: 2em 0;
+				padding: 2em 5;
 			}
 		/*}
 	}
