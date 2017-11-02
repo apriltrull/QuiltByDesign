@@ -8,23 +8,23 @@ export default class NavComponent extends React.Component {
 			<nav>
 				<div className="navWide">
 					<div className="wideDiv">
-						<a href="/main.js">Home</a>
-						<a href="/introduction.js">Professional Team</a>
-            <a href="/progress.js">Gallery</a>
-            <a href = "/testimonials.js">Testimonials</a>
-            <a href = "/tips.js">Creative Tips</a>
-            <a href = "/contact.js">Contact</a>
+						<a href="/main">Home</a>
+						<a href="/introduction">Professional Team</a>
+            <a href="/progress">Gallery</a>
+            <a href = "/testimonials">Testimonials</a>
+            <a href = "/tips">Creative Tips</a>
+            <a href = "/contact">Contact</a>
 					</div>
 				</div>
 				<div className="navNarrow">
 					<i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
 					<div className="narrowLinks">
-						<a href="/main.js" onClick={this.burgerToggle}>Home</a>
-						<a href="/introduction.js" onClick={this.burgerToggle}>Professional Team</a>
-						<a href="/progress.js" onClick={this.burgerToggle}>Gallery</a>
-            <a href ="/testimonials.js" onClick={this.burgerToggle}>Testimonials</a>
-            <a href = "/tips.js" onClick={this.burgerToggle}>Creative Tips</a>
-            <a href = "/contact.js" onClick={this.burgerToggle}>Contact</a>
+						<a href="/main" onClick={this.burgerToggle}>Home</a>
+						<a href="/introduction" onClick={this.burgerToggle}>Professional Team</a>
+						<a href="/progress" onClick={this.burgerToggle}>Gallery</a>
+            <a href ="/testimonials" onClick={this.burgerToggle}>Testimonials</a>
+            <a href = "/tips" onClick={this.burgerToggle}>Creative Tips</a>
+            <a href = "/contact" onClick={this.burgerToggle}>Contact</a>
 					</div>
 				</div>
 			</nav>
