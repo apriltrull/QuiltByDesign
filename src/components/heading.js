@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-router-dom";
+import {Route, Router, Redirect} from "react-router-dom";
 import "../assets/stylesheets/heading.css";
 
 export default class NavComponent extends React.Component {
