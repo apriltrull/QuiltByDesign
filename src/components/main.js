@@ -2,7 +2,7 @@ import React from 'react';
 import  '../assets/stylesheets/main.css';
 import  '../assets/stylesheets/introduction.css';
 import Becky from  '../assets/img/quilt-by-design-becky-wilcox.jpg';
-import Heading from "./assests/components/heading.js";
+
 
 
 
