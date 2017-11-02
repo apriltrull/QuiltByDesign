@@ -3,6 +3,7 @@ nav {
 	background-color: #9fdf9f;
 	overflow: hidden;
 	padding: 1em;
+  position:fixed;
 }
 	a {
 		color: #FFF;
