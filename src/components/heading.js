@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDom from "react-dom";
+
 import "../assets/stylesheets/heading.css";
 import Main from "../assets/components/main.js";
 import Introduction from "../assets/components/introduction.js";
