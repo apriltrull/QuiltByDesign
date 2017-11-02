@@ -27,6 +27,7 @@ html, body {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-end;
   justify-content: left;
   padding-bottom: 1em;
   color:#F00;
