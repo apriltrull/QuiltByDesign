@@ -2,8 +2,8 @@ import React from "react";
 
 import "../assets/stylesheets/heading.css";
 
+export default class NavComponent extends React.Component {
 
-const NavComponent = React.createClass({
 	render: function() {
 		return (
 			<nav>
@@ -33,6 +33,6 @@ const NavComponent = React.createClass({
 			linksEl.style.display = 'block';
 		}
 	}
-});
+};
 
 ReactDOM.render(<NavComponent />, document.querySelector('navbar'));
