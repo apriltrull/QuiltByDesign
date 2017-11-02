@@ -7,7 +7,7 @@ import Tips from './components/tips';
 import Contact from './components/contact';
 import Progress from './components/progress';
 import  Introduction from './components/introduction';
-import History from './history';
+import History from './components/history';
 import './App.css';
 
 
