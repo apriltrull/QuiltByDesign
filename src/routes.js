@@ -14,7 +14,7 @@ import './App.css';
 
 export const makeMainRoutes = () => {
   return (
-    <Router path="/main" history={history} component={Heading}>
+    <Router path="/main" history={History} component={Heading}>
       <div className="App">
         <Redirect from="/" to="/main" />
 
