@@ -12,17 +12,17 @@ const NavComponent = React.createClass({
 			<nav>
 				<div className="navWide">
 					<div className="wideDiv">
-						<a href="/main">Home</a>
-						<a href="/introduction">Owners</a>
-						<a href="/progress">Gallery</a>
+						<a href="/main.js">Home</a>
+						<a href="/introduction.js">Owners</a>
+						<a href="/progress.js">Gallery</a>
 					</div>
 				</div>
 				<div className="navNarrow">
 					<i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
 					<div className="narrowLinks">
-						<a href="/main" onClick={this.burgerToggle}>Home</a>
-						<a href="/introduction" onClick={this.burgerToggle}>Owners</a>
-						<a href="/progress" onClick={this.burgerToggle}>Gallery</a>
+						<a href="/main.js" onClick={this.burgerToggle}>Home</a>
+						<a href="/introduction.js" onClick={this.burgerToggle}>Owners</a>
+						<a href="/progress.js" onClick={this.burgerToggle}>Gallery</a>
 					</div>
 				</div>
 			</nav>
