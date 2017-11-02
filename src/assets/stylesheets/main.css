@@ -30,7 +30,8 @@ html, body {
   justify-content: left;
   padding-bottom: 1em;
   color:#F00;
-  font-family: Ribbon Cursive;
+  font-family: 'Indie Flower', cursive;
+font-family: 'Sacramento', cursive;
 }
 
 .extend {
