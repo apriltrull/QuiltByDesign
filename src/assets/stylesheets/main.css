@@ -26,7 +26,6 @@ html, body {
 .advertise {
   display:flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: flex-end;
   justify-content: left;
   padding-bottom: 1em;
@@ -38,7 +37,6 @@ font-family: 'Sacramento', cursive;
 .extend {
 
   font-size: 2em;
-
   text-shadow: 2px 2px 3px #000000;
   color:white;
   padding-bottom: 1em;
