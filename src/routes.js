@@ -23,7 +23,8 @@ export const makeMainRoutes = () => {
         <Route path="/progress"     render={(props) => <Progress {...props} />} />
         <Route path="/testimonials"      render={(props) => <Testimonials {...props} />} />
         <Route path="/tips"        render={(props) => <Tips {...props }/>} />
-        <Route path="/Contact"    render={(props) => <Contact {...props}/>} />
+        <Route path="/contact"    render={(props) => <Contact {...props}/>} />
+        <Route path = "/history"   render={(props)}  => <History {...props}/>} />
 
         }}/>
       </div>
