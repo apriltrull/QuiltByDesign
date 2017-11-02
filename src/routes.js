@@ -18,15 +18,13 @@ export const makeMainRoutes = () => {
       <div className="App">
         <Redirect from="/" to="/main" />
 
-        <Route path="/main"         render={(props) => <Main {...props} />} />
+        // <Route path="/main"         render={(props) => <Main {...props} />} />
         <Route path="/introduction" render={(props) => <Introduction {...props} />} />
         <Route path="/progress"     render={(props) => <Progress {...props} />} />
         <Route path="/testimonials"      render={(props) => <Testimonials {...props} />} />
         <Route path="/tips"        render={(props) => <Tips {...props }/>} />
         <Route path="/contact"    render={(props) => <Contact {...props}/>} />
-        
 
-        }}/>
       </div>
     </Router>
   );
