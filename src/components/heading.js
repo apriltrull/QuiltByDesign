@@ -8,12 +8,12 @@ export default class NavComponent extends React.Component {
 			<nav>
 				<div className="navWide">
 					<div className="wideDiv">
-						<Link to ="/main.js"><a href="/main.js">Home</a></Link></Link>
-						<Link to ="/introduction.js"><a href="/introduction.js">Professional Team</a></Link></Link>
-            <Link to ="/progress.js"><a href="/progress.js">Gallery</a></Link></Link>
-            <Link to ="/testimonials.js"><a href = "/testimonials.js">Testimonials</a></Link></Link>
-            <Link to ="/tips.js"><a href = "/tips.js">Creative Tips</a></Link></Link>
-            <Link to ="/contact.js"><a href = "/contact.js">Contact</a></Link></Link>
+						<Link to ="/main.js"><a href="/main.js">Home</a></Link>
+						<Link to ="/introduction.js"><a href="/introduction.js">Professional Team</a></Link>
+            <Link to ="/progress.js"><a href="/progress.js">Gallery</a></Link>
+            <Link to ="/testimonials.js"><a href = "/testimonials.js">Testimonials</a></Link>
+            <Link to ="/tips.js"><a href = "/tips.js">Creative Tips</a></Link>
+            <Link to ="/contact.js"><a href = "/contact.js">Contact</a></Link>
 					</div>
 				</div>
 				<div className="navNarrow">
