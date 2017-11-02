@@ -59,7 +59,7 @@ nav {
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
-@media (min-width: 480px) {
+/*@media (min-width: 480px) {*/
 
 	/*nav {*/
 
@@ -70,4 +70,3 @@ replaced by just the links.*/
 		.navNarrow {
 			display: none;
 		}
-	}
