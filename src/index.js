@@ -28,9 +28,9 @@
 //
 
   import ReactDOM from 'react-dom';
-  import './index.css';
   import registerServiceWorker from './registerServiceWorker';
   import { makeMainRoutes } from './routes';
+  import './assets/stylesheets/index.css';
 
   const routes = makeMainRoutes();
 
