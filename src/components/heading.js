@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Router, Redirect} from "react-router-dom";
+import {Link} from "react-router-dom";
 import "../assets/stylesheets/heading.css";
 
 export default class NavComponent extends React.Component {
@@ -9,23 +9,23 @@ export default class NavComponent extends React.Component {
 			<nav>
 				<div className="navWide">
 					<div className="wideDiv">
-						<a href="/main">Home</a>
-						<a href="/introduction">Professional Team</a>
-            <a href="/progress">Gallery</a>
-            <a href = "/testimonials">Testimonials</a>
-            <a href = "/tips">Creative Tips</a>
-            <a href = "/contact">Contact</a>
+						<Link to="/main">Home</Link>
+						<Link to="/introduction">Professional Team</Link>
+            <Link to="/progress">Gallery</Link>
+            <Link to = "/testimonials">Testimonials</Link>
+            <Link to = "/tips">Creative Tips</Link>
+            <Link to = "/contact">Contact</Link>
 					</div>
 				</div>
 				<div className="navNarrow">
 					<i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
 					<div className="narrowLinks">
-						<a href="/main" onClick={this.burgerToggle}>Home</a>
-						<a href="/introduction" onClick={this.burgerToggle}>Professional Team</a>
-						<a href="/progress" onClick={this.burgerToggle}>Gallery</a>
-            <a href ="/testimonials" onClick={this.burgerToggle}>Testimonials</a>
-            <a href = "/tips" onClick={this.burgerToggle}>Creative Tips</a>
-            <a href = "/contact" onClick={this.burgerToggle}>Contact</a>
+						<Link to="/main" onClick={this.burgerToggle}>Home</Link>
+						<Link to="/introduction" onClick={this.burgerToggle}>Professional Team</Link>
+						<Link to="/progress" onClick={this.burgerToggle}>Gallery</Link>
+            <Link to ="/testimonials" onClick={this.burgerToggle}>Testimonials</Link>
+            <Link to = "/tips" onClick={this.burgerToggle}>Creative Tips</Link>
+            <Link to = "/contact" onClick={this.burgerToggle}>Contact</Link>
 					</div>
 				</div>
 			</nav>
