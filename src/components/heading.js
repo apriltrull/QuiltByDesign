@@ -4,7 +4,7 @@ import "../assets/stylesheets/heading.css";
 
 export default class NavComponent extends React.Component {
 
-	render: function() {
+	render () {
 		return (
 			<nav>
 				<div className="navWide">
