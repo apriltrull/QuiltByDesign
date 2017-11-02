@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import NavComponent from './components/heading.js';
 import Main from './components/main.js';
 
 import './assets/stylesheets/index.css';
@@ -11,7 +11,7 @@ class Grit extends React.Component {
   render() {
     return (
       <div>
-
+        <NavComponent/>
         <Main />
         <Introduction/>
 
