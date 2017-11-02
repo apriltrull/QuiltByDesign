@@ -27,7 +27,7 @@ html, body {
   display:flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: left;
+  /*justify-content: left;*/
   padding-bottom: 1em;
   color:#F00;
   font-family: 'Indie Flower', cursive;
@@ -51,7 +51,7 @@ html, body {
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  padding-bottom:3em;
+  padding-bottom:1em;
 
 }
 /*}*/
