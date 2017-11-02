@@ -30,7 +30,10 @@ nav {
 				display: inline-block;
 
 				 /*Adjust padding to increase/decrease the space between links.*/
-				padding: 8 2em;
+				padding: 0 2em;
+        padding-left: 10px;
+        padding-right:10px;
+
 	}
 
 

@@ -14,6 +14,9 @@ class Grit extends React.Component {
     return (
       <div>
         <NavComponent/>
+      </div>
+
+      <div>  
         <Main />
         <Introduction/>
 
