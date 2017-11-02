@@ -4,6 +4,7 @@ nav {
 	overflow: hidden;
 	padding: 1em;
   position:fixed;
+  width:100%;
 }
 	a {
 		color: #FFF;
