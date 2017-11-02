@@ -25,7 +25,7 @@ html, body {
 
 .advertise {
   display:flex;
-  /*flex-direction: row;*/
+  flex-direction: row;
   align-items: flex-end;
   /*justify-content: left;*/
   padding-bottom: 1em;
