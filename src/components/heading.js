@@ -34,5 +34,3 @@ export default class NavComponent extends React.Component {
 		}
 	}
 };
-
-ReactDOM.render(<NavComponent />, document.querySelector('navbar'));
