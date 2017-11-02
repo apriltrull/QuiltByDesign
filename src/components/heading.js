@@ -1,9 +1,6 @@
 import React from "react";
 
 import "../assets/stylesheets/heading.css";
-import Main from "../assets/components/main.js";
-import Introduction from "../assets/components/introduction.js";
-import Progress from "../assets/components/progress.js";
 
 
 const NavComponent = React.createClass({
