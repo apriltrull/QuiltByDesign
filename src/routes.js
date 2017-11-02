@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Router, Redirect } from 'react-router-dom';
 import Main from './components/main';
-import Heading from './components/Heading'; //now top level component
+import Heading from './components/heading'; //now top level component
 import Testimonials from './components/testimonials';
 import Tips from './components/tips';
 import Contact from './components/contact';
 import Progress from './components/progress';
 import  Introduction from './components/introduction';
-import history from './history';
+import History from './history';
 import './App.css';
 
 
