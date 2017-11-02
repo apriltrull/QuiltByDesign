@@ -15,8 +15,7 @@ nav {
 	border-bottom: 1px solid #000;
 
 	.navWide {
-    display:flex;
-    flex-direction: row;
+
 		display: none;
 		margin: 0 auto;
 }
@@ -30,7 +29,7 @@ nav {
 				text-decoration: none;
 				display: inline-block;
 				 /*Adjust padding to increase/decrease the space between links.*/
-				padding: 0 2em;
+				padding: 3 2em;
 	}
 
 
