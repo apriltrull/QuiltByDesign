@@ -33,7 +33,7 @@ nav {
  /*Navbar is set to default with the "hamburger" and links on the left
  side of the screen. To move to the right of the screen, simply
 	change the three "float: Left;" references to read "float: right;".*/
-	.navNarrow {
+	/*.navNarrow {*/
 
 		i {
 			float: left;
@@ -43,7 +43,7 @@ nav {
 
 		.narrowLinks {
 			display: none;
-
+}
 			a {
 				text-decoration: none;
 				display: block;
@@ -51,15 +51,15 @@ nav {
 				clear: left;
 				padding: 0.5em 0;
 			}
-		}
+		/*}
 	}
-}
+}*/
 
 /*Adjust breakpoint as desired to select when the "hamburger" menu is
 replaced by just the links.*/
 @media (min-width: 480px) {
 
-	nav {
+	/*nav {*/
 
 		.navWide {
 			display: block;
@@ -68,5 +68,5 @@ replaced by just the links.*/
 		.navNarrow {
 			display: none;
 		}
-	}
-}
+	/*}
+}*/
