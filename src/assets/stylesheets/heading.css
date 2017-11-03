@@ -1,12 +1,13 @@
-@media screen and (max-width: 950px) {
+
 nav {
 	background-color: #9fdf9f;
 	overflow: hidden;
 	padding: 1em;
   position:fixed;
   width:100%;
+  font-size: 2vw;
 }
-}
+
 	a {
 		color: #FFF;
 	}

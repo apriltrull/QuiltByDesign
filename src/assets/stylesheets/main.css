@@ -6,7 +6,7 @@ html, body {
 
   margin: 0 auto;
 }
-@media screen and (max-width: 950px) {
+
 .headerImg {
   background-image: url(https://cdn.pixabay.com/photo/2017/08/28/15/30/barn-2689965__340.jpg);
   z-index:50;
@@ -22,8 +22,9 @@ html, body {
   background-size: cover;
   padding-bottom: 1em;
 
+
 }
-}
+
 
 .advertise {
   display:flex;
@@ -38,7 +39,7 @@ html, body {
 
 .extend {
 
-  font-size: 2em;
+  font-size: 2vw;
   text-shadow: 2px 2px 3px #000000;
   color:white;
   padding-bottom: 1.5em;
@@ -50,7 +51,7 @@ html, body {
 .quilt {
 
   color: white;
-  font-size: 7em;
+  font-size: 4vw;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
   /*padding-bottom:1em;*/
