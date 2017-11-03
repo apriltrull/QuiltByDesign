@@ -5,7 +5,7 @@ nav {
 	padding: 1em;
   position:fixed;
   width:100%;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 	a {
@@ -36,7 +36,7 @@ nav {
 				display: inline-block;
 
 				 /*Adjust padding to increase/decrease the space between links.*/
-				padding: 0 2em;
+				padding: 0 1em;
 
 
 	}
@@ -62,7 +62,7 @@ nav {
 				display: block;
 				float: left;
 				clear: left;
-				padding: 2em 0;
+				padding: 1em 0;
 			}
 		/*}
 	}
