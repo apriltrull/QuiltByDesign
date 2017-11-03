@@ -1,10 +1,12 @@
 import React from 'react';
 import { Route, Router, Redirect } from 'react-router-dom';
+import Main from './components/main';
 import Heading from './components/heading'; //now top level component
 import Testimonials from './components/testimonials';
 import Tips from './components/tips';
 import Contact from './components/contact';
 import Progress from './components/progress';
+
 import History from './components/history';
 import './App.css';
 
@@ -16,6 +18,8 @@ export const makeMainRoutes = () => {
       <div className="App">
         <Redirect from="/" to="/main" />
         <Route path="/"             render={(props) => <Heading {...props} />} />
+        <Route path="/main"         render={(props) => <Main {...props} />} />
+
         <Route path="/progress"     render={(props) => <Progress {...props} />} />
         <Route path="/testimonials"      render={(props) => <Testimonials {...props} />} />
         <Route path="/tips"        render={(props) => <Tips {...props }/>} />
