@@ -54,17 +54,9 @@ html, body {
   font-size: 6vw;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  padding-bottom:2em;
+  padding-bottom:1.5em;
 
 }
-/*}*/
-
- /*h1, h2 {
-  z-index: 100;
-  text-align: center;
-  color:white;
-
-}*/
 
 
 .orange {
@@ -78,7 +70,3 @@ html, body {
   font-family: 'Sacramento', cursive;
 
 }
-
-/*.yellow {
-  background-color: #f69d00;
-}*/
