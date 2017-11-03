@@ -1,7 +1,7 @@
 import React from 'react';
 import ContactForm from './contactForm.js';
 import '../assets/stylesheets/contact.css';
-import headerImg from '../assets/stylesheets/main.css'
+import headerImg from '../assets/stylesheets/main.css';
 
 export default class Contact extends React.Component {
 
