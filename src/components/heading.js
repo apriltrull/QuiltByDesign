@@ -10,7 +10,6 @@ export default class NavComponent extends React.Component {
 				<div className="navWide">
 					<div className="wideDiv">
 						<Link to="/main">Home</Link>
-						<Link to="/introduction">Professional Team</Link>
             <Link to="/progress">Gallery</Link>
             <Link to = "/testimonials">Testimonials</Link>
             <Link to = "/tips">Creative Tips</Link>
@@ -21,7 +20,6 @@ export default class NavComponent extends React.Component {
 					<i className="fa fa-bars fa-2x" onClick={this.burgerToggle}></i>
 					<div className="narrowLinks">
 						<Link to="/main" onClick={this.burgerToggle}>Home</Link>
-						<Link to="/introduction" onClick={this.burgerToggle}>Professional Team</Link>
 						<Link to="/progress" onClick={this.burgerToggle}>Gallery</Link>
             <Link to ="/testimonials" onClick={this.burgerToggle}>Testimonials</Link>
             <Link to = "/tips" onClick={this.burgerToggle}>Creative Tips</Link>

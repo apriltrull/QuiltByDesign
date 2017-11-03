@@ -6,7 +6,6 @@ import Testimonials from './components/testimonials';
 import Tips from './components/tips';
 import Contact from './components/contact';
 import Progress from './components/progress';
-import  Introduction from './components/introduction';
 import History from './components/history';
 import './App.css';
 
@@ -18,8 +17,6 @@ export const makeMainRoutes = () => {
       <div className="App">
         <Redirect from="/" to="/main" />
         <Route path="/"             render={(props) => <Heading {...props} />} />
-        <Route path="/main"         render={(props) => <Main {...props} />} />
-        <Route path="/introduction" render={(props) => <Introduction {...props} />} />
         <Route path="/progress"     render={(props) => <Progress {...props} />} />
         <Route path="/testimonials"      render={(props) => <Testimonials {...props} />} />
         <Route path="/tips"        render={(props) => <Tips {...props }/>} />
