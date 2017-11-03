@@ -4,7 +4,7 @@ import Heading from './components/heading'; //now top level component
 import Tips from './components/tips';
 import Contact from './components/contact';
 import Progress from './components/progress';
-import  Introduction from './components/introduction';
+import  Testimonials from './components/testimonials';
 import History from './components/history';
 import './App.css';
 
