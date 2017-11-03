@@ -59,9 +59,9 @@ html, body {
 }
 
 
-.orange {
+.meet {
   background-color: #ffe680;
-  margin:5em;
+  margin:0;
   width:75%;
   text-shadow: 2px 2px 5px #000000;
   z-index: 100;
