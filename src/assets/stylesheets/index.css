@@ -7,17 +7,18 @@
 }
 @media (max-width: 1450px) and (min-width:851px) {
 .orange {
-  
+
 }
 }
 
 
-.orange {
+/*.orange {
   background-color:#800040;
   margin:4em;
   padding:20px;
-  height: 18%;
-}
+  height: 25%;
+  width:75%;
+}*/
 
 /*@media screen and (max-width: 520px) {
 }

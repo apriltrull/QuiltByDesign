@@ -1,12 +1,12 @@
 
 
 
-
+@media (max-width: 1450px) and (min-width:851px) {
 html, body {
 
   margin: 0 auto;
 }
-
+}
 .headerImg {
   background-image: url(https://cdn.pixabay.com/photo/2017/08/28/15/30/barn-2689965__340.jpg);
   z-index:50;
@@ -61,7 +61,8 @@ html, body {
 
 .orange {
   background-color: #ffe680;
-  margin:0;
+  margin:5em;
+  width:75%;
   text-shadow: 2px 2px 5px #000000;
   z-index: 100;
   text-align: center;
