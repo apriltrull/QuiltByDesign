@@ -32,7 +32,7 @@ html, body {
   align-items: flex-end;
   justify-content: left;
   /*padding-bottom: 1em;*/
-  color:#F00;
+  color:white;
   font-family: 'Indie Flower', cursive;
   font-family: 'Sacramento', cursive;
 }
@@ -60,7 +60,7 @@ html, body {
 
 
 .orange {
-  /*background-color: #ffe680;*/
+  background-color: #ffe680;
   margin:0;
   width:100%;
   align-content: center;
