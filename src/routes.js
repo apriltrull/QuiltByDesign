@@ -15,7 +15,7 @@ export const makeMainRoutes = () => {
   return (
     <Router path="/main" history={History} component={Heading}>
       <div className="App">
-        // <Redirect from="/" to="/main" />
+      
         <Route path="/"             render={(props) => <Heading {...props} />} />
         <Router path="main"    render = {(props)}  => <Main {...props} /> />
         <Route path="/progress"     render={(props) => <Progress {...props} />} />
