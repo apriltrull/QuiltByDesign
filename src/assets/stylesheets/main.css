@@ -28,8 +28,8 @@ html, body {
   display:flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: left;
-  padding-bottom: 1em;
+  /*justify-content: left;*/
+  /*padding-bottom: 1em;*/
   color:#F00;
   font-family: 'Indie Flower', cursive;
   font-family: 'Sacramento', cursive;
@@ -40,7 +40,7 @@ html, body {
   font-size: 2em;
   text-shadow: 2px 2px 3px #000000;
   color:white;
-  padding-bottom: 1em;
+  /*padding-bottom: 1em;*/
   margin:0 auto;
 
 }
@@ -52,7 +52,7 @@ html, body {
   font-size: 7em;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  padding-bottom:1em;
+  /*padding-bottom:1em;*/
 
 }
 /*}*/
