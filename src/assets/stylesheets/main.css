@@ -46,7 +46,7 @@ html, body {
   margin:0 auto;
 
 }
-/*@media (max-width: 1450px) and (min-width:851px) {*/
+
 
 .quilt {
 
@@ -54,7 +54,7 @@ html, body {
   font-size: 6vw;
   text-shadow: 2px 2px 3px #000000;
   margin: 0 auto;
-  /*padding-bottom:1em;*/
+  padding-bottom:2em;
 
 }
 /*}*/
