@@ -63,6 +63,7 @@ html, body {
   background-color: #ffe680;
   margin:0;
   width:75%;
+  align-items: center;
   text-shadow: 2px 2px 5px #000000;
   z-index: 100;
   text-align: center;
