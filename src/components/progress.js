@@ -81,7 +81,7 @@ export default class Progress extends React.Component {
   render () {
     return (
       <div className='progress'>
-        <h1 className='orange'> Quilt Gallery </h1>
+        <h1 className='tags'> Quilt Gallery </h1>
         <br/>
 
         <div className="slideshow-container">

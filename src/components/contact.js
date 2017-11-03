@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
   render () {
     return (
         <div className="contactMain contactContainer" >
-          <h1 className="contactHeader orange"> Contact For Quotes or Questions </h1>
+          <h1 className="contactHeader tags"> Contact For Quotes or Questions </h1>
             <div className="contactContent">
               <div className="contactFlex">
                 <img src={headerImg}alt=" "/>
