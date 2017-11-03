@@ -4,6 +4,7 @@
 }
 
 .testimonials h1 {
+  padding-top:30px;
   padding: 20px;
   font-size:3em;
 }
@@ -13,7 +14,7 @@
   flex-direction: row;
   justify-content: flex-start;
   text-align: center;
-  
+
 
  }
 
