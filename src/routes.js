@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Router, Redirect } from 'react-router-dom';
-import Callback from './CallBack/callback';
+import Callback from './CallBack/callback.js';
 import Main from './components/main';
 import Heading from './components/heading'; //now top level component
 import Testimonials from './components/testimonials';
