@@ -31,7 +31,7 @@ export default class Main extends React.Component {
 
         <div className="intro">
 
-              <h1 className='meet'>Meet Your Professional Longarm Quilting Team</h1>
+              <h1 className='orange'>Meet Your Professional Longarm Quilting Team</h1>
             <div className = "bio">
               <img src ={Becky} alt="becky with longarm"/>
               <h2 className = "bio-text">Rebekah Wilcox has over 250 combined years of quilting experience for the crown heads of Europe.  If you think your quilt deserves the finest treatment know to man or beast, call for an appointment.  If you and your quilt meet her qualifications, you can expect an invitation to make a reservation.  Invitations are sent by registered mail and are hand made with the finest oriental silk and gold leaf letters.
