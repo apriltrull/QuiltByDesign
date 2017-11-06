@@ -60,11 +60,11 @@ html, body {
 .bio{
   display:flex;
   flex-direction: row;
-  
+
 }
 
 .bio-text{
-  font-size: 3vw;
+  font-size: 7vw;
 }
 .orange {
   background-color: #ffe680;
