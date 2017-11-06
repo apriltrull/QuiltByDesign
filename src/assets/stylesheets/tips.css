@@ -30,6 +30,7 @@
 .tips-text {
   background-image:URL('https://cdn.pixabay.com/photo/2017/10/24/23/01/brick-2886481__340.jpg');
   opacity: 5;
+  z-index:2;
   align-content: center;
   width:75%;
   display:flex;
