@@ -30,8 +30,8 @@ html, body {
   display:flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: left;
-
+  justify-content:flex-start;
+  padding-top:5em;
   color:white;
   font-family: 'Indie Flower', cursive;
   font-family: 'Sacramento', cursive;
