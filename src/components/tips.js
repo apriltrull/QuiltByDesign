@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/stylesheets/tips.css';
-import Borders from '../assests/img/Applying-Borders.pdf';
+import Borders from '../assets/img/Applying-Borders.pdf';
 
 export default class Tips extends React.Component {
 
