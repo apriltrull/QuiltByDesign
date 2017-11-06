@@ -31,7 +31,7 @@ html, body {
   flex-direction: row;
   align-items: flex-end;
   justify-content: left;
-  /*padding-bottom: 1em;*/
+  font-size: 3vw;
   color:white;
   font-family: 'Indie Flower', cursive;
   font-family: 'Sacramento', cursive;
