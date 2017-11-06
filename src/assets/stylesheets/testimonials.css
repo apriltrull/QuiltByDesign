@@ -13,9 +13,7 @@
 }
 @media screen and (max-width: 950px) {
 .talk {
-  display:flex;
-  flex-direction: row;
-  justify-content: flex-start;
+
   text-align: center;
 
 
@@ -29,6 +27,7 @@
  .talk1{
    background-color:  #f2d9f2;
  }
+
  .talk2 {
   background-color:  #f2d9f2;
  }
