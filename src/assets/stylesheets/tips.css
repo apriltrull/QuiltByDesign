@@ -12,7 +12,7 @@
   font-size:3em;
 }
 
-.tips {
+/*.tips {
 
   display:flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
   text-align: center;
 
 
- }
+ }*/
 @media screen and (max-width: 950px) {
  .tips-text {
    font-size: 1em;
@@ -28,7 +28,7 @@
  }
 }
 .tips-text {
-  background-color:#F00;
+  background-color:#faebf5;
   align-content: center;
   width:75%;
   display:flex;
