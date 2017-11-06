@@ -12,7 +12,7 @@ export default class NavComponent extends React.Component {
 						<Link to="/main">Home</Link>
             <Link to="/progress">Gallery</Link>
             <Link to = "/testimonials">Testimonials</Link>
-            <Link to = "/tips">Creative Tips</Link>
+            <Link to = "/tips">Tips and Tricks</Link>
             <Link to = "/contact">Contact</Link>
 					</div>
 				</div>
@@ -22,7 +22,7 @@ export default class NavComponent extends React.Component {
 						<Link to="/main" onClick={this.burgerToggle}>Home</Link>
 						<Link to="/progress" onClick={this.burgerToggle}>Gallery</Link>
             <Link to ="/testimonials" onClick={this.burgerToggle}>Testimonials</Link>
-            <Link to = "/tips" onClick={this.burgerToggle}>Creative Tips</Link>
+            <Link to = "/tips" onClick={this.burgerToggle}>Tips and Tricks</Link>
             <Link to = "/contact" onClick={this.burgerToggle}>Contact</Link>
 					</div>
 				</div>

@@ -31,11 +31,10 @@
   background-image:URL('https://cdn.pixabay.com/photo/2017/07/24/19/47/background-2535847__340.jpg');
   opacity: 5;
   z-index:2;
-  align-content: center;
   width:75%;
   list-style-type: none;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
 }
 .list{
   list-style: none;
