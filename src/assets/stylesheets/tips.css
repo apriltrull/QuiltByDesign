@@ -33,8 +33,6 @@
   z-index:2;
   align-content: center;
   width:75%;
-  list-style: none;
-  display:flex;
-  justify-content: center;
+  list-style-type: none;
   text-align: center;
 }
