@@ -36,3 +36,6 @@
   list-style-type: none;
   text-align: center;
 }
+.list{
+  list-style: none;
+}

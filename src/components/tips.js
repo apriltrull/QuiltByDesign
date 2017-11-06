@@ -13,7 +13,7 @@ export default class Tips extends React.Component {
             <div className = "tips">
 
               <div className = "tips-text">
-                <ul>
+                <ul className="list">
                   <li>TIP #1 </li>
                   <li>One of the problems as a longarm quilter that I run into fairly often are borders that flare or have extra fabric in them.  Do I make a tuck? Do I cut into the border and remove some of the fabric?  How can I quilt that flat???  Proper measuring is the answer.  Each time you add any border to the center of your quilt, follow the guidelines in the example below.  You will have a much happier longarm quilter, no headaches for her and your quilt will look so much nicer.</li><br/>
                   <li>TIP #2</li>
