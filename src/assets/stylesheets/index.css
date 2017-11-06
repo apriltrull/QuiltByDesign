@@ -12,7 +12,17 @@
 }
 
 
+.tags {
+  background-color:#800040;
+  margin:0;
+  padding:20px;
+  height: 25%;
+  width:100%;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Sacramento', cursive;
+  color:white;
 
+}
 
 /*@media screen and (max-width: 520px) {
 }
