@@ -19,18 +19,22 @@
 
 
  }
+.talk{
+  width:70%;
 
+}
 
 }
  .talk1{
     background-image:URL('https://cdn.pixabay.com/photo/2017/07/24/19/47/background-2535847__340.jpg');
     font-size: 1.5em;
-
-
+    margin-left:15%;
+    margin-right:15%;
  }
 
  .talk2 {
   background-image:URL('https://cdn.pixabay.com/photo/2017/07/24/19/47/background-2535847__340.jpg');
   font-size: 1.5em;
-  
+  margin-left:15%;
+  margin-right:15%;
  }
