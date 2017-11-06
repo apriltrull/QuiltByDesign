@@ -7,11 +7,11 @@
 
 }
 
-.testimonials h1 {
+/*.testimonials h1 {
 
   padding: 20px;
   font-size:3em;
-}
+}*/
 @media screen and (max-width: 950px) {
 .talk {
 
@@ -20,7 +20,7 @@
 
  }
 
- .talk-text {
+ .talk{
    font-size: 2em;
    color: black;
  }
