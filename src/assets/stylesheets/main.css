@@ -58,14 +58,11 @@ html, body {
 
 }
 .bio{
-  display:flex;
-  flex-direction: row;
+  font: 8em;
 
 }
 
-.bio-text{
-  font-size: 7vw;
-}
+
 .orange {
   background-color: #ffe680;
   margin:0;
