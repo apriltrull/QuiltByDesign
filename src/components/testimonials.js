@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/stylesheets/testimonials.css';
 import Demo from '../assets/img/client-quilt.JPG';
-import Demo2 from '../ assets/img/client-quilt2.JPG';
+import Demo2 from '../ assets/img/client-quilt3.JPG';
 
 export default class Testimonials extends React.Component {
 
@@ -25,7 +25,7 @@ export default class Testimonials extends React.Component {
 
                <div className="img">
                <img scr= {Demo} alt="client quilt"/>
-               <img src={Demo2} alt="clients second quilt"/>
+               <img src={Demo2} alt="clients third quilt"/>
                </div>
             </div>
 
