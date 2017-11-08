@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/stylesheets/testimonials.css';
-import Demo from '../assets/img/client-quilt3.JPG';
+import Demo from '../assets/img/client-quilt.JPG';
 import Demo2 from '../assets/img/client-quilt2.PNG';
 
 export default class Testimonials extends React.Component {
