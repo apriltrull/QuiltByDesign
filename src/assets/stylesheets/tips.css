@@ -38,5 +38,6 @@
   list-style: none;
   font-size: 2em;
   align-items: center;
-
+  padding-left: 5px;
+  padding-right: 5px;
 }
