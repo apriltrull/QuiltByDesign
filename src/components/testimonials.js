@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/stylesheets/testimonials.css';
-import Demo from '../assets/stylesheets/client-quilt';
-import Demo2 from '../ assets/stylesheets/client-quilt2';
+import Demo from '../assets/img/client-quilt';
+import Demo2 from '../ assets/img/client-quilt2';
 
 export default class Testimonials extends React.Component {
 
