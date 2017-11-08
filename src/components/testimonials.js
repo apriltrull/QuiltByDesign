@@ -1,5 +1,7 @@
 import React from 'react';
 import '../assets/stylesheets/testimonials.css';
+import Demo from '../assets/stylesheets/client-quilt';
+import Demo2 from '../ assets/stylesheets/client-quilt2';
 
 export default class Testimonials extends React.Component {
 
@@ -16,6 +18,13 @@ export default class Testimonials extends React.Component {
 
             <div className="talk2">
               <h2>I have many quilts by Becky Wilcox! I am in California and so they(the quilts) take the trip and come back with wonderful results!   I trust Becky's judgement and I have never been disappointed!  We connected on Facebook and actually went to high school together way back when!  So it is fun to do business now and I recommend her highly!  Shelley - CA</h2>
+            </div>
+
+            <div className = "talk3">
+             <h2> I was commissioned by a dear friend to make her a quilted bedspread with very few specifications. The quilt had to be all white and be bedspread size.  Oh, my, a white quilt made by someone who is a “chromoholic”...  I set to work and found 39 different whites and creams to use with the Cinnamon Bun pattern I had picked out.  But the final product was not amazing until Becky worked her magic on it!  Her custom quilting is just awesome, really brought out each block to perfection!  I can’t say enough good about her skill, and would highly recommend her!  Jo Ann McKee </h2>
+               <img scr= {Demo} alt="client quilt"/>
+               <img src={Demo2} alt="clients second quilt"/>
+
             </div>
 
            </div>
